@@ -148,6 +148,7 @@ function ChunkMod:render(range, opts)
 
     local row_opts = {
         virt_text_pos = "overlay",
+        virt_text_repeat_linebreak = true,
         hl_mode = "combine",
         priority = 100,
     }
